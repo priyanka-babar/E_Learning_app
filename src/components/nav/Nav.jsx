@@ -21,7 +21,7 @@ function Nav() {
           <div className={style.nav_details}>
             <button>
               <NavLink to="courses">
-                {({ isActive }) => (isActive ? "on chnage" : "Go to courses")}
+                {({ isActive }) => (isActive ? "On Courses" : "Go to courses")}
               </NavLink>
             </button>
           </div>
